@@ -1,0 +1,356 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register",
+    "line": 2,
+    "id": "register",
+    "tags": [
+      {
+        "name": "@all",
+        "line": 1
+      },
+      {
+        "name": "@chernobyl-qa-test",
+        "line": 1
+      },
+      {
+        "name": "@BDDSTORY-1",
+        "line": 1
+      }
+    ],
+    "uri": "Register.feature",
+    "elements": [
+      {
+        "id": "register;chernobyl_register_tc01-the-user-registers-on-the-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Chernobyl_Register_TC01-The user registers on the page",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 13037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user press button",
+            "result": {
+              "status": "passed",
+              "duration": 3481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "enter \"Miss\"",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "enter \"Brimar\" and \"Rodriguez\"",
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "write \"brodriguez@prueba.cl\"",
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user enter \"prueba123.\" and \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "click on \"Accept Terms & Conditions\"",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "press button register",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Show success message",
+            "result": {
+              "status": "passed",
+              "duration": 2342000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register;chernobyl_register_tc02-email-already-registered",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Chernobyl_Register_TC02-Email Already Registered",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-2",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 12403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user press button",
+            "result": {
+              "status": "passed",
+              "duration": 747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "enter \"Miss\"",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "enter \"Brimar\" and \"Rodriguez\"",
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "write \"brodriguez@prueba.cl\"",
+            "result": {
+              "status": "passed",
+              "duration": 519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user enter \"prueba123.\" and \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "click on \"Accept Terms & Conditions\"",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "press button register",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register;chernobyl_register_tc03-the-user-cancel-registration",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Chernobyl_Register_TC03-the user cancel registration",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-3",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 11769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "the user press button",
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "enter \"Mr\"",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "enter \"Pedro\" and \"Perez\"",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "write \"pedroperez@prueba.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the user enter \"prueba123.\" and \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "click on \"Accept Terms & Conditions\"",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "press button cancel",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

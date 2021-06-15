@@ -1,0 +1,715 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 2,
+    "id": "login",
+    "tags": [
+      {
+        "name": "@all",
+        "line": 1
+      },
+      {
+        "name": "@chernobyl-qa-test",
+        "line": 1
+      },
+      {
+        "name": "@BDDSTORY-1",
+        "line": 1
+      }
+    ],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;chernobyl_login_tc01-correct-login",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Chernobyl_Login_TC01-Correct login",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-1",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 12484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user press button",
+            "result": {
+              "status": "passed",
+              "duration": 1505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "enter \"Miss\"",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "enter \"Brimar\" and \"Rodriguez\"",
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "write \"brodriguez@prueba.cl\"",
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user enter \"prueba123.\" and \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 719000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "click on \"Accept Terms & Conditions\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "press button register",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Show success message",
+            "result": {
+              "status": "passed",
+              "duration": 12473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The user enter correct \"brodriguez@prueba.cl\" and \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "The user clicks button Login",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The user logs in correctly",
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc02-incorrect-login",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Chernobyl_Login_TC02-Incorrect login",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-2",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 14375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "The user enter correct \"brrodriguez123@gmail.com\" and \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 1446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "The user clicks button Login",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "The user logs in incorrectly",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc03-login-without-email",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Chernobyl_Login_TC03-Login without email",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-3",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 11750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "The user enter correct \"prueba123.\"",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "The user clicks button Login",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Alert email is required",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc04-login-without-password",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Chernobyl_Login_TC04-Login without password",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-4",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 12335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "User enter correct \"brodriguez@prueba.cl\"",
+            "result": {
+              "status": "passed",
+              "duration": 1129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "The user clicks button Login",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "Alert password is required",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc05-forgot-password",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Chernobyl_Login_TC05-Forgot Password",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-5",
+            "line": 56
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 11703000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "The user clicks button Forgot Password",
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Insert \"brodriguez@prueba.cl\"",
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc06-validate-email-format",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Chernobyl_Login_TC06-Validate email format",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-6",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 12192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "The user enter correct \"brrodriguez1gmail.com\" and \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Alert email format",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc06-validate-email-format",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Chernobyl_Login_TC06-Validate email format",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-6",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 11823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "The user enter correct \"@gmail.com\" and \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Alert email format",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc06-validate-email-format",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Chernobyl_Login_TC06-Validate email format",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-6",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 12337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "The user enter correct \"123.com\" and \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Alert email format",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc06-validate-email-format",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "Chernobyl_Login_TC06-Validate email format",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-6",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 11712000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "The user enter correct \"aa12345gmail.com\" and \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Alert email format",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;chernobyl_login_tc06-validate-email-format",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "Chernobyl_Login_TC06-Validate email format",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@chernobyl-qa-test",
+            "line": 1
+          },
+          {
+            "name": "@BDDSTORY-1",
+            "line": 1
+          },
+          {
+            "name": "@BDDTEST-6",
+            "line": 66
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "The user navigates to the page",
+            "result": {
+              "status": "passed",
+              "duration": 12289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "The user enter correct \"pruebas@gmail.\" and \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 1183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Alert email format",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
